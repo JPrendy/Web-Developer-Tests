@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<script>
+//Fizz Buzz test
+let Fizz = "Fizz";
+let Buzz = "Buzz";
+
+for(i=0; i<100; i++){
+
+if(i % 15 == 0){
+    console.log(Fizz + Buzz + " " + i)
+}
+if(i % 3 == 0){
+    console.log(Fizz + " " + i)
+}
+if(i % 15 == 0){
+    console.log(Buzz + " " + i)
+}
+}
+
+//array.sort
+let array = [20, 32, 12, 14, 6, 9];
+let test = array.sort((a,b) =>
+  a-b
+);
+console.log(test);
+
+//array forEach
+
+let array2 = [5, 13, 11, 3, 9];
+array2.forEach(value => {
+  console.log("forEach value " + value);
+});
+
+//array .map
+
+let array3 = [10, 20, 40];
+let array4 = array3.map(value =>  value += 3);
+console.log(array3);
+console.log(array4);
+
+</script>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,10 @@
+//Fizz Buzz test
+
+
+//array.sort
+
+
+//array forEach
+
+
+//array .map
