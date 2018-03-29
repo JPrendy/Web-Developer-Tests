@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<script>
+//Fizz Buzz test
+let Fizz = "Fizz";
+let Buzz = "Buzz";
+
+for(i=0; i<100; i++){
+    if( i % 15 == 0){
+        console.log(Fizz + Buzz + " " + i);
+    }
+    if( i % 3 == 0){
+        console.log(Fizz + " " + i);
+    }
+    if( i % 5 == 0){
+        console.log(Buzz + " " + i);
+    }
+}
+
+//array.sort
+let array = [20, 12, 14, 15];
+let newValue = array.sort((a,b) =>{
+    return a-b;
+})
+console.log(newValue);
+
+
+//array forEach
+let array2 = [12, 14, 15];
+array2.forEach(value =>{
+    console.log("forEach value is " + value);
+})
+
+//array .map
+let array3 = [12, 14, 15];
+let mapValue = array3.map(value => value +=10);
+console.log(array3);
+console.log(mapValue);
+
+//get odd number
+for(j=0; j < 100; j++){
+    if(j % 2 == 1){
+        console.log(j);
+    }
+}
+</script>
+<body>
+    
+</body>
+</html>
